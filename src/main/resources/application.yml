@@ -1,1 +1,5 @@
-
+spring:
+  application:
+    name: adapter-service
+  config:
+    import: optional:configserver:instead
