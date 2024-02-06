@@ -1,4 +1,7 @@
+The project utilizes various technologies including:
+> Java 17, Spring Boot, Maven, Gson, Lombok, Swagger.
+Weather API website:
+> https://tomorrow.io
 # API Documentation
-```bash
-http://localhost:8080/swagger-ui/index.html
-```
+> http://localhost:8080/swagger-ui/index.html
+
