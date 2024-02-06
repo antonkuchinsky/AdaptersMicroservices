@@ -22,7 +22,7 @@ public class AdapterServiceImpl implements AdapterService {
         }
         if ("ru".equals(msgA.lng())) {
             String weatherData = weatherService.getWeatherData(msgA.coordinates().latitude(), msgA.coordinates().longitude());
-
+            //Sending a MsgB to service B
             return new MsgB(msgA.msg(), LocalDateTime.now(),weatherService.parseWeatherData(weatherData));
         } else {
             return null;
